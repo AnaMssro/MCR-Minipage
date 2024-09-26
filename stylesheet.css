@@ -1,0 +1,44 @@
+* {
+    font-family: poppins;
+    background-color: #151515;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 550;
+    letter-spacing: 0.65rem;
+    margin: 25px;
+}
+
+.logo {
+    margin-top: 200px;
+    margin-bottom: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-img  {
+    border-radius: 15%;
+    gap: 30px;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px ;
+    grid-template-rows: 1fr;
+    margin: 33px 28px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.one {
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    height: 2px;
+    width: 1150px;
+}
