@@ -1,0 +1,121 @@
+body {
+    font-family: poppins;
+    background-color: #151515;
+}
+
+h1 {
+    color: #7C7C7C;
+    font-weight: 560;
+    letter-spacing: 7.6px;
+    font-size: 1.8em;
+    margin-left: 3%;
+    margin-top: 75px;
+
+    display: flex;
+    justify-content: start;
+}
+
+hr {
+    height: 6px;
+    width: 94%;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: #D9D9D9;
+}
+
+/* ------------------------------------------------------------- */
+
+.semi-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.h2-albums, .h2-singles {
+    width: min-content;
+    white-space: nowrap;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    color: #D9D9D9;
+    font-weight: 560;
+    font-size: 1.65em;
+    letter-spacing: 7.6px;
+
+}
+
+.h2-albums {
+    display: grid;
+    justify-self: start;
+    margin-left: 8%;
+}
+
+.h2-singles {
+    display: grid;
+    justify-self: end;
+    margin-right: 8%;
+}
+
+/* ------------------------------------------------------------- */
+
+.leftright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-albums {
+    display: grid;
+
+    /* grid-template-columns: 350px 350px;
+    grid-auto-rows: 350px;
+    gap: ; */
+
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px; */
+
+    grid-template-columns: repeat(2, minmax(300px, 360px));
+    grid-template-rows: repeat(2, minmax(300px, 360px));
+
+    justify-items: center;
+    align-items: center;
+    justify-content: start;
+
+    margin-left: 5%;
+    max-width: max-content;
+    border-radius: 20px;
+    background-color: #262222;
+
+    border-left: 8px solid #262222;
+    border-right: 8px solid #262222;
+
+}
+
+.container-singles {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(200px, 250px));
+    grid-template-rows: repeat(5, minmax(200px, 250px));
+
+
+    justify-content: end;
+    justify-items: center;
+    align-items: center;
+
+    max-width: max-content;
+    margin-right: 5%;
+    border-radius: 20px;
+    background-color: #262222;
+
+    border-left: 8px solid #262222;
+    border-right: 8px solid #262222;
+}
+
+.album, .single {
+    border-radius: 7%;
+}
+
+.i {
+    display: grid;
+    grid-column: 2 / 3;
+}
