@@ -12,6 +12,7 @@ main {
     grid-template-columns: 2fr 3fr;
     grid-auto-rows: 550px;
     border-bottom: 1px solid #ddd;
+    margin-left: 40px;
 }
 
 .hero-image {
@@ -25,14 +26,14 @@ main {
 }
 
 .info-title {
-    color: #333;
+    color: #151515;
     font-size: 3rem;
     font-weight: bolder;
     margin-bottom: 24px;
 }
 
 .info-subtitle {
-    color: #333;
+    color: #151515;
     font-size: 1.5rem;
     margin-bottom: 24px;
 }
@@ -40,8 +41,8 @@ main {
 .info-button {
     border: none;
     border-radius: 20px;
-    color: #333;
-    background-color: #fb8c00;
+    color: #ddd;
+    background-color: #151515;
     font-weight: bolder;
     padding: 12px 24px;
 }
@@ -70,6 +71,7 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5%;
 }
 
 .dishes-item__big {
@@ -82,7 +84,7 @@ main {
 
 .menu-title {
     font-size: 2rem;
-    color: #333;
+    color: #151515;
     font-weight: bolder;
     text-align: center;
     margin-bottom: 50px;
@@ -100,7 +102,8 @@ main {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    background-color: coral;
+    background-color: #151515;
+    border-radius: 5%;
     border-top-left-radius: 40px;
 }
 
